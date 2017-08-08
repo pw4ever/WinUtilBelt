@@ -46,7 +46,6 @@ namespace NeverIdle
             }
 
             // Do real work.
-            Console.WriteLine(options.verbosity);
             try
             {
                 int delay = options.maxDelay;
